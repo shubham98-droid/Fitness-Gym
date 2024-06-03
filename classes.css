@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+/*navbar css start*/
+
+
+.navbar {
+    background-color: #524D4D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    overflow: hidden;
+}
+
+.nav-links {
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+    list-style: none;
+    margin-left: 30em;
+}
+
+.nav-items {
+    margin: 16px 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.join-btn {
+    background-color: orange;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 3px #9f8336;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0; /* Added */
+    font-family: Arial, sans-serif;
+    
+}
+
+
+
+
+/*navbar css end.....................................*/
+
+/* container1 css*/
+.container1{
+    height: 100%;
+    width: 100%;
+    background-image: url(./images/gym\ 1classes.png);
+}
+.container1h1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 10%;
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+   opacity: 0.5;
+
+}
+.container1img{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.trainersimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trainersimg p{
+color: white;
+margin: 10px auto;
+}
+.trainersimg button{
+    height: 35px;
+    background-color: #FFA500;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+/* container1  css end here .................................*/
+
+/* container2 css*/
+.container2{
+    background-color:#FFA50057; 
+    height: 100%;
+}
+#container2h1{
+    text-align: center;
+    padding-top: 15px;
+    font-family:sans-serif;
+}
+.container2img{
+   height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container2imgitems{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container2imgitems button{
+    height: 35px;
+    background-color: #9c9c93;
+    border-radius: 15px;
+    font-size: 1.3rem;
+    color: white;
+}
+
+/* container2 css end here*/
+.footer{
+    height: 50vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+     
+  }
+  .fitnesslogo img{
+      height: 105px;
+      width: 290px;
+  }
+  .fitnesslogo  p{
+      color: #FFA500;
+      font-size: 1.3rem;
+      text-align:center;
+      padding-left: 5px;
+  }
+  .company{
+      margin-left: 10px;
+  }
+  .company h3{
+      color:white;
+      font-size: 1.5rem;
+  }
+  .footerlist{
+     list-style: none;
+     margin-top: 10px;
+  }
+  .footerlist li{
+      font-size: 1.2rem;
+       margin-bottom: 20px;
+  }
+  .footerlist li a{
+      color: white;
+  }
+  .Contact{
+      margin-left: 10px;
+  }
+  .Contact h3{
+      color:white;
+      font-size: 1.5rem;
+  }
+  
+  .More{
+      margin-left: 10px;
+  }
+  .More h3{
+      color:white;
+      font-size: 1.5rem;
+  }
+  
+  
+  .x{
+      height: 50vh;
+      background-color: #524D4D;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr 1.5fr;
+      column-gap: 10px;
+      padding-top: 100px;
+      padding-left: 5px;
+      padding-right: 5px;
+  
+  }
+  .btnfooter{
+      height: 50px;
+      width: 100px;
+      background-color: #524D4D;
+      color:white;
+      font-size: 1.3rem;
+      margin: 5px 5px;
+  }
+  .Populartags h3{
+      color: #FFA500;
+      margin-bottom: 10px;
+      font-size: 1.3rem;
+  }
+  .anotherfooterbtn{
+      background-color: #FFA500;
+  }
+  .copyright{
+      height: 10vh;
+      background-color: #FFA500;
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      word-spacing: 0.3rem;
+  }
+  a:hover{
+    color: #FFA500;
+  }
+  .hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 40px;
+    height: 8px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+   background-color: rgb(159, 158, 154);
+}
+  @media(max-width:768px){
+   .container1img{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    height: fit-content
+    ;
+   }
+   .container1{
+    height: fit-content;
+    width: 100%;
+   }
+   .trainersimg{
+    margin-bottom: 10px;
+   
+   }
+   .container2{
+    height: fit-content;
+    width: 100%;
+   }
+   .container2img{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .btnfooter{
+    height: fit-content;
+    width: fit-content;
+   }
+   .Populartags{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+   }
+   .x{
+    height: fit-content;
+   }
+   .copyright{
+       display: flex; 
+    align-items: center;
+    margin-top: 50px;
+    background-color: #FFA500;
+    height: 100px;
+    width: 100%;
+}
+   
+  }
+  @media(max-width:768px){
+    .hamburger{
+        display: block;
+        
+    }
+    .hamburger.active.bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active.bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active.bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    .nav-links{
+        position: relative;
+        right: 20%;
+        top: 10%;
+        gap: 0;
+        flex-direction: column;
+        background-color:rgb(39, 38, 37);
+        width: 70%;
+        height: 250px;
+        text-align: center;
+        transition: 0.3s;
+    }
+    .nav-items{
+        margin: 16px 0;
+    } 
+    .nav-links.active{
+        display: none;
+    }
+    .navbar{
+        padding-right: 10pxs;
+    }
+  }
+  /* Form Popup */
+.form-popup {
+    display: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+    background-color: rgb(232, 180, 95);
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#emailContact{
+    width: fit-content;
+}
+#phoneContact{
+    width: fit-content;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
